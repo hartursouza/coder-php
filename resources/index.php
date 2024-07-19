@@ -19,11 +19,12 @@
     </header>
     <main class="main">
         <div class="content">
-            <nav class="models">
-                <div class="model verde">
+            <nav class="modules">
+                <div class="module verde">
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li><a href="/exercicio.php?dir=teste&file=teste">Exercício A</a></li>
+                        <li><a href="/exercise.php?dir=basic&file=hi">Olá PHP</a></li>
+                        <li><a href="/exercise.php?dir=basic&file=html">Interação HTML</a></li>
                     </ul>
                 </div>
             </nav>

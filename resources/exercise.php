@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/exercicio.css">
+    <link rel="stylesheet" href="./assets/css/exercise.css">
     <title>Document</title>
 </head>
 
@@ -19,13 +19,21 @@
         <h2>Índice dos Exercícios</h2>
     </header>
     <nav class="navigation">
-        <a href="<?= "./{$_GET['dir']}/{$_GET['file']}.php"?>" class="verde">Sem Formatação</a>
+        <a href="<?= " ./{$_GET['dir']}/{$_GET['file']}.php"?>" class="verde">Sem
+            Formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
     </nav>
     <main class="main">
         <div class="content">
-            <?php include("./{$_GET['dir']}/{$_GET['file']}.php");
-            
+            <?php 
+                $file = "./{$_GET['dir']}/{$_GET['file']}.php";
+
+                // Verifica se o arquivo existe antes de incluí-lo
+                if (file_exists($file)) {
+                    include($file);
+                } else {
+                    echo "Arquivo não encontrado: " . $file;
+                }
             ?>
         </div>
     </main>

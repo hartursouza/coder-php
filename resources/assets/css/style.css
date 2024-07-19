@@ -63,19 +63,19 @@ body {
   padding-right: 20px;
 }
 
-.models {
+.modules {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.model {
+.module {
   flex-basis: 32%;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.model > h3 {
+.module > h3 {
   margin: 0px;
   color: #fff;
   font-size: 1.5rem;
@@ -83,87 +83,87 @@ body {
   background-color: #1867c0;
 }
 
-.model > ul {
+.module > ul {
   margin: 0px;
   padding: 10px;
   list-style: none;
 }
 
-.model > ul > li {
+.module > ul > li {
   font: 1.2rem;
   cursor: pointer;
 }
 
-.model > ul > li > a {
+.module > ul > li > a {
   display: flex;
   text-decoration: none;
   color: #222;
   padding: 10px;
 }
 
-.model > ul > li > a:hover {
+.module > ul > li > a:hover {
   background-color: #eee;
 }
 
-.model.verde {
+.module.verde {
   border: 2px solid #4caf50;
 }
-.model.verde > h3 {
+.module.verde > h3 {
   background-color: #4caf50;
 }
 
-.model.vermelho {
+.module.vermelho {
   border: 2px solid #f44336;
 }
-.model.vermelho > h3 {
+.module.vermelho > h3 {
   background-color: #f44336;
 }
 
-.model.azul {
+.module.azul {
   border: 2px solid #2196f3;
 }
-.model.azul > h3 {
+.module.azul > h3 {
   background-color: #2196f3;
 }
 
-.model.roxo {
+.module.roxo {
   border: 2px solid #9c27b0;
 }
-.model.roxo > h3 {
+.module.roxo > h3 {
   background-color: #9c27b0;
 }
 
-.model.laranja {
+.module.laranja {
   border: 2px solid #ff9800;
 }
-.model.laranja > h3 {
+.module.laranja > h3 {
   background-color: #ff9800;
 }
 
-.model.verde-escuro {
+.module.verde-escuro {
   border: 2px solid #1b5e20;
 }
-.model.verde-escuro > h3 {
+.module.verde-escuro > h3 {
   background-color: #1b5e20;
 }
 
-.model.vermelho-escuro {
+.module.vermelho-escuro {
   border: 2px solid #b71c1c;
 }
-.model.vermelho-escuro > h3 {
+.module.vermelho-escuro > h3 {
   background-color: #b71c1c;
 }
 
-.model.azul-escuro {
+.module.azul-escuro {
   border: 2px solid #0d47a1;
 }
-.model.azul-escuro > h3 {
+.module.azul-escuro > h3 {
   background-color: #0d47a1;
 }
 
-.model.roxo-escuro {
+.module.roxo-escuro {
   border: 2px solid #4a148c;
 }
-.model.roxo-escuro > h3 {
+.module.roxo-escuro > h3 {
   background-color: #4a148c;
 }
