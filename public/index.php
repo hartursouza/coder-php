@@ -21,10 +21,29 @@
         <div class="content">
             <nav class="modules">
                 <div class="module verde">
-                    <h3>Módulo 01</h3>
+                    <h3>Básico</h3>
                     <ul>
                         <li><a href="/exercise.php?dir=basic&file=hi">Olá PHP</a></li>
                         <li><a href="/exercise.php?dir=basic&file=html">Interação HTML</a></li>
+                        <li><a href="/exercise.php?dir=basic&file=challenge">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="module vermelho">
+                    <h3>Tipos</h3>
+                    <ul>
+                        <li><a href="/exercise.php?dir=tipos&file=string_challenge">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="module azul">
+                    <h3>Variáveis</h3>
+                    <ul>
+                        <li><a href="/exercise.php?dir=variaveis&file=var_challenge">Desafio</a></li>
+                    </ul>
+                </div>
+                <div class="module roxo">
+                    <h3>Estruturas de Controle #1</h3>
+                    <ul>
+                        <li><a href="">Desafio</a></li>
                     </ul>
                 </div>
             </nav>
