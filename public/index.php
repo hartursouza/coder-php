@@ -41,9 +41,17 @@
                     </ul>
                 </div>
                 <div class="module roxo">
-                    <h3>Estruturas de Controle #1</h3>
+                    <h3>Controle</h3>
                     <ul>
-                        <li><a href="">Desafio</a></li>
+                        <li><a href="/exercise.php?dir=controle&file=logical_operators_challenge">Desafio #1</a></li>
+                        <li><a href="/exercise.php?dir=controle&file=switch_challenge">Desafio #2</a></li>
+                    </ul>
+                </div>
+                <div class="module laranja">
+                    <h3>Array</h3>
+                    <ul>
+                        <li><a href="/exercise.php?dir=arrays&file=month_challenge">Desafio #1</a></li>
+                        <li><a href="/exercise.php?dir=arrays&file=draw_challenge">Desafio #2</a></li>
                     </ul>
                 </div>
             </nav>
