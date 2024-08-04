@@ -54,6 +54,16 @@
                         <li><a href="/exercise.php?dir=arrays&file=draw_challenge">Desafio #2</a></li>
                     </ul>
                 </div>
+                <div class="module verde-escuro">
+                    <h3>Controle #2</h3>
+                    <ul>
+                        <li><a href="/exercise.php?dir=controle_2&file=for_challenge">Desafio #1</a></li>
+                        <li><a href="/exercise.php?dir=controle_2&file=foreach">Foreach</a></li>
+                        <li><a href="/exercise.php?dir=controle_2&file=foreach_challenge">Desafio #2</a></li>
+                        <li><a href="/exercise.php?dir=controle_2&file=matriz_challenge">Desafio #3</a></li>
+                        <li><a href="/exercise.php?dir=controle_2&file=matriz_2_challenge">Desafio #4</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
